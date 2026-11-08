@@ -44,9 +44,9 @@ body {
   background: rgba(255,255,255,0.15); color: #fff; text-decoration: none; font-weight: 700;
 }
 
-#results { flex: 1 1 380px; display: flex; flex-direction: column; gap: 20px; max-width: 520px; }
+#results { flex: 1 1 480px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; max-width: 880px; align-content: start; }
 .card { background: #fff; color: #222; border-radius: 10px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
-.card img { width: 100%; height: 220px; object-fit: cover; display: block; background: #ddd; }
+.card img { width: 100%; height: 180px; object-fit: cover; display: block; background: #ddd; }
 .card-body { padding: 16px; }
 .card-body h3 { margin-bottom: 8px; }
 .card-body p { margin-bottom: 12px; line-height: 1.5; }
