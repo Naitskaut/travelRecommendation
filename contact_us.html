@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom | Contact Us</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="travel_recommendation.html" class="logo">TravelBloom</a>
+    <ul class="nav-links">
+      <li><a href="travel_recommendation.html">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="contact_us.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <h1>Contact Us</h1>
+    <p>Have a question or want help planning your next trip? Send us a message and we'll get back to you soon.</p>
+
+    <form class="contact-form" id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+      <div class="form-status" id="formStatus"></div>
+    </form>
+  </main>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('formStatus').textContent = 'Thank you! Your message has been sent.';
+      this.reset();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom | Home</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="travel_recommendation.html" class="logo">TravelBloom</a>
+    <ul class="nav-links">
+      <li><a href="travel_recommendation.html" class="active">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+      <button class="btn" id="btnSearch">Search</button>
+      <button class="btn secondary" id="btnClear">Clear</button>
+    </div>
+  </nav>
+
+  <main class="home">
+    <section class="intro">
+      <h1>Explore Dream Destination</h1>
+      <p>
+        TravelBloom helps you discover the world's most beautiful places. Whether you dream of
+        sunny beaches, ancient temples or vibrant cities in faraway countries, we turn your travel
+        ideas into unforgettable experiences. Search for "beach", "temple" or "country" to get
+        personalized recommendations.
+      </p>
+      <button class="btn">Book Now</button>
+      <div class="social">
+        <a href="#" title="Facebook">f</a>
+        <a href="#" title="X">x</a>
+        <a href="#" title="Instagram">in</a>
+        <a href="#" title="YouTube">▶</a>
+      </div>
+    </section>
+
+    <section id="results" aria-live="polite"></section>
+  </main>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
