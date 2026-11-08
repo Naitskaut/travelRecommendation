@@ -6,12 +6,12 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "https://loremflickr.com/640/400/sydney,opera?lock=11",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Opera_House_-_Dec_2008.jpg?width=800",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
         },
         {
           "name": "Melbourne, Australia",
-          "imageUrl": "https://loremflickr.com/640/400/melbourne,city?lock=12",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_Skyline_and_Princes_Bridge_-_Dec_2008.jpg?width=800",
           "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
         }
       ]
@@ -22,12 +22,12 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "https://loremflickr.com/640/400/tokyo,city?lock=21",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyscrapers_of_Shinjuku_2009_January.jpg?width=800",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "https://loremflickr.com/640/400/kyoto?lock=22",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinkaku-ji_2.jpg?width=800",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
@@ -38,12 +38,12 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "https://loremflickr.com/640/400/rio,janeiro?lock=31",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Christ_the_Redeemer_-_Cristo_Redentor.jpg?width=800",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "https://loremflickr.com/640/400/saopaulo,city?lock=32",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A3o_Paulo_city_%28Bela_Vista%29.jpg?width=800",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
         }
       ]
@@ -53,13 +53,13 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "https://loremflickr.com/640/400/angkor,temple?lock=41",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat.jpg?width=800",
       "description": "A UNESCO World Heritage site and the largest religious monument in the world."
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "https://loremflickr.com/640/400/tajmahal?lock=42",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_%28Edited%29.jpeg?width=800",
       "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
     }
   ],
@@ -67,13 +67,13 @@
     {
       "id": 1,
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "https://loremflickr.com/640/400/borabora,beach?lock=51",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Otemanu_Bora_Bora.jpg?width=800",
       "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
     },
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
-      "imageUrl": "https://loremflickr.com/640/400/copacabana,beach?lock=52",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg?width=800",
       "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and stunning views."
     }
   ]

@@ -5,7 +5,7 @@ body {
   color: #fff;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 30, 50, 0.55), rgba(0, 30, 50, 0.55)),
-    url("https://loremflickr.com/1600/900/travel,beach?lock=7") center/cover fixed, #0b3d55;
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg?width=1600") center/cover fixed, #0b3d55;
 }
 
 /* ---------- Navbar ---------- */
